@@ -11,6 +11,8 @@ public class QuizRunner {
         myQuiz.addQuestion(myCheckBoxQuestion);
         TrueFalse myTrueFalseQuestion = new TrueFalse("True or False: The Great Wall of China is visible from space.", "False");
         myQuiz.addQuestion(myTrueFalseQuestion);
+        ShortAnswerQuestion myShortAnswerQuestion = new ShortAnswerQuestion("Kangaroos are from which country?", "Australia");
+        myQuiz.addQuestion(myShortAnswerQuestion);
 
         myQuiz.runQuiz();
 
